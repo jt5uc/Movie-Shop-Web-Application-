@@ -1,0 +1,60 @@
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+ opacity:1;
+	
+  
+}
+
+.card-signin .card-title {
+	
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-body {
+	
+  	padding: 2rem;
+}
+
+.form-signin {
+	
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.btn {
+  color: white;
+  background-color: #ea4335;
+}
+
+.container{
+	
+	margin-top: 100px;
+	
+	
+}
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   background: url("https://images.wallpaperscraft.com/image/sponge_bob_square_pants_jaw_eyes_nose_glasses_102097_1920x1080.jpg") no-repeat;
+    background-size: cover;
+}

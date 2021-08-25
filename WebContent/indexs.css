@@ -1,0 +1,99 @@
+.bg-model{
+	width: 100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.7);
+	position:absolute;
+	top:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	display:none;
+}
+
+.model-content{
+	width:500px;
+	height:450px;
+	background-color:white;
+	border-radius:13px;
+	text-align:center;
+	padding:20px;
+	position:relative;
+}
+
+.close{
+	position: absolute;
+	top:0;
+	right:14px;
+	font-size:40px;
+	transform: rotate(45deg);
+	cursor:pointer;
+}
+.carousel-item {
+  height: 1080;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+	font-family: 'Bree Serif', serif;
+	letter-spacing: 1px;
+}
+a{
+	color:white;
+}
+
+#ssection{
+	height:1080px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#sub{
+	margin-top:10px;
+	margin-left: 40%;
+	margin-top:300px;
+}
+	
+#sform{
+	width: 600px;
+}
+
+#fg{
+	width:900px;
+}
+
+#ftinput{
+	letter-spacing: 2px;
+	width:600px;
+	background: transparent;
+}
+#titlesearch{
+	
+	height:3px;
+	
+}
+
+#ssection{
+	background-image:url("https://initiate.alphacoders.com/images/971/cropped-1920-1080-971686.jpg?1277");
+	background-position:  bottom 20px;
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+	
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #f4b942;
+  opacity: 1; /* Firefox */
+  font-size: 35px;
+}
+
+
+input[type="text"]{ padding: 20px 10px; line-height: 28px ;font-size: 30px; }
+
+textarea:focus, input:focus{
+    outline: none;
+}

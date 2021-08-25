@@ -1,0 +1,61 @@
+<!-- This page will be redirected from any url if you are not logged in -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Check Out</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="checkout.css">
+</head>
+<body>
+
+<!-- Set the method to POST to avoid showing the username/password in the URL
+     The default action is disabled to allow your own implementation. -->
+<div class="container">
+<div class="row">
+<div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+<div class="card card-signin my-5">
+<div class="card-body">
+<h2 class="card-title text-center">Checkout</h2>
+<form  class="form-signin" id="checkout_form" method="post" action="#">
+	<div class="form-label-group">
+    <label><b>Card Number</b></label>
+    <input type="text" class="form-control" placeholder="Card Number" name="cardnumber" autofocus required>
+    </div>
+    <br>
+    <div class="form-label-group">
+    <label><b>First Name</b></label>
+    <input type="text" class="form-control" placeholder="First Name" name="firstname" autofocus required>
+    </div>
+    <div id=test></div>
+    <br>
+    <div class="form-label-group">
+    <label><b>Last Name</b></label>
+    <input type="text" class="form-control" placeholder="Last Name" name="lastname" autofocus required>
+    </div>
+    <br>
+    <div class="form-label-group">
+    <label><b>Expirationss Date</b></label>
+    <input type="date" class="form-control" placeholder="Expiration Date" name="expiredate" autofocus required>
+    </div>
+    <br>
+    <input type="submit" value="CHECK OUT" class="btn btn-lg btn-google btn-block text-uppercase" >
+</form>
+<div class="text-center pt-3 text-uppercase font-weight-bold" id="login_error_message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+<!-- include jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- include our own JS file -->
+<script src="./checkouts.js"></script>
+
+</body>
+</html>
